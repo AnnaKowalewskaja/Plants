@@ -1,26 +1,32 @@
 .header {
     background-color: $bg_section;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
-.navigation__logo{
+
+.navigation__logo {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
 }
-.logo__paragraf{
+
+.logo__paragraf {
     font-size: 1.6rem;
     color: #000000;
     margin: 0;
 }
-.navigation__list{
+
+.navigation__list {
     display: flex;
     padding: 0;
     width: 50%;
     max-width: 46.5rem;
     justify-content: space-between;
 }
+
 .navigation__item {
     color: $links_nav;
     font-size: 1.6rem;
@@ -38,3 +44,58 @@
     transition: $main_animation;
 }
 
+.welcome__main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10.86rem;
+}
+
+.welcome__main_img {
+    max-width: 44.88rem;
+    height: 40.7rem;
+}
+
+.welcome__main_block {
+    max-width: 55.8rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome__paragraf {
+    font-size: 2rem;
+    line-height: 3.4rem;
+
+}
+
+.welcome__header {
+    margin: 0;
+    color: $content_text;
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-family: $second_font;
+    font-weight: 700;
+
+    span {
+        color: $headers_text;
+    }
+}
+
+.welcome__button {
+    
+    font-size: 1.6rem;
+    line-height: 2rem;
+    border: 2px solid $select_text;
+    border-radius: 1rem;
+    width: 15.86rem;
+    height: 4.4rem;
+    background-color: $bg_section;
+    transition-property: all;
+
+}
+
+.welcome__button:hover{
+    color: white;
+    background-color: $select_text;
+}

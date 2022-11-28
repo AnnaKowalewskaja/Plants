@@ -9,7 +9,8 @@
 
 * {
     scroll-behavior: smooth;
-
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -18,34 +19,40 @@ html {
     box-sizing: border-box;
 }
 
-a {
+a,li,button {
     text-decoration: none;
-  
-  }  
-  
-  a,li,button:hover{
+    transition: $main_animation;
+}
+
+a,
+li,
+button:hover {
     cursor: pointer;
     transition: $main_animation;
-  }
+}
 
-  ul{
+ul {
     list-style-type: none;
     margin: 0;
-  }
+}
 
-  .container{
+.container {
     max-width: $max_width;
     width: 84%;
     margin: 0 auto;
 }
 
+button{
+    font-family: $second_font;
+}
 
-
-.header, section{
+.header,
+section {
     width: 100%;
 }
 
-.paragraf{
-    color:$content_text;
+.paragraf {
+    color: $content_text;
     font-family: $second_font;
+    font-weight: 400;
 }

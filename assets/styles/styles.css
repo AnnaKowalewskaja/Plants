@@ -11,6 +11,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .navigation__logo {
@@ -56,8 +57,75 @@
   transition: all 0.3s ease-in;
 }
 
+.welcome__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10.86rem;
+}
+
+.welcome__main_img {
+  max-width: 44.88rem;
+  height: 40.7rem;
+}
+
+.welcome__main_block {
+  max-width: 55.8rem;
+  height: 34rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome__paragraf {
+  font-size: 2rem;
+  line-height: 3.4rem;
+}
+
+.welcome__header {
+  margin: 0;
+  color: #717171;
+  font-size: 4.5rem;
+  line-height: 5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.welcome__header span {
+  color: #499A18;
+}
+
+.welcome__button {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  border: 2px solid #E06733;
+  border-radius: 1rem;
+  width: 15.86rem;
+  height: 4.4rem;
+  background-color: #EDF2EC;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+.welcome__button:hover {
+  color: white;
+  background-color: #E06733;
+}
+
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -66,11 +134,15 @@ html {
           box-sizing: border-box;
 }
 
-a {
+a, li, button {
   text-decoration: none;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
-a, li, button:hover {
+a,
+li,
+button:hover {
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -87,12 +159,18 @@ ul {
   margin: 0 auto;
 }
 
-.header, section {
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.header,
+section {
   width: 100%;
 }
 
 .paragraf {
   color: #717171;
   font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 /*# sourceMappingURL=styles.css.map */
