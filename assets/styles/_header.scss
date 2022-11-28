@@ -1,13 +1,40 @@
 .header {
     background-color: $bg_section;
 }
-
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation__logo{
+    display: flex;
+    align-items:flex-end;
+}
+.logo__paragraf{
+    font-size: 1.6rem;
+    color: #000000;
+    margin: 0;
+}
+.navigation__list{
+    display: flex;
+    padding: 0;
+    width: 50%;
+    max-width: 46.5rem;
+    justify-content: space-between;
+}
 .navigation__item {
     color: $links_nav;
+    font-size: 1.6rem;
+    line-height: 5rem;
 
-   :hover {
-        color:$select_text;
-        transition: $main_animation;
-    }
+}
+
+.navigation__item:hover {
+    color: $select_text;
+
+}
+
+.navigation__item:active {
+    color: $content_text;
+    transition: $main_animation;
 }
 
