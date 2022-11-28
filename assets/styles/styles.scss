@@ -1,0 +1,51 @@
+@import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+
+
+
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+  
+  }  
+  
+  a,li,button:hover{
+    cursor: pointer;
+    transition: $main_animation;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+  }
+  p,h1
+  .container{
+    max-width: $max_width;
+    width: 84%;
+    margin: 0 auto;
+}
+
+
+
+.header, section{
+    width: 100%;
+}
+
+.paragraf{
+    color:$content_text;
+    font-family: $second_font;
+}

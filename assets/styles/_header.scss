@@ -1,0 +1,13 @@
+.header {
+    background-color: $bg_section;
+}
+
+.navigation__item {
+    color: $links_nav;
+
+   :hover {
+        color:$select_text;
+        transition: $main_animation;
+    }
+}
+

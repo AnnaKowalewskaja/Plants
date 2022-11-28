@@ -1,0 +1,57 @@
+/* colors */
+/*font-family*/
+.header {
+  background-color: #EDF2EC;
+}
+
+.navigation__item {
+  color: #010201;
+}
+
+.navigation__item :hover {
+  color: #E06733;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, li, button:hover {
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+p, h1
+.container {
+  max-width: 1222px;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.header, section {
+  width: 100%;
+}
+
+.paragraf {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
