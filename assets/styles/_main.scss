@@ -1,0 +1,20 @@
+.service {
+    background-color: $bg_section;
+    font-family: $first_font;
+}
+.service__header{
+    color: $headers_text;
+    font-size: 4rem;
+line-height: 5.2rem;
+font-weight: 400;
+}
+.service__button {
+    background-color: $bg_section;
+    font-family: $first_font;
+    border: 1px solid $select_text;
+    border-radius: .5rem;
+    width: 16.1rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: $select_text;
+}
