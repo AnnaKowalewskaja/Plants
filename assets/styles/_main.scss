@@ -1,12 +1,13 @@
 .service {
     background-color: $bg_section;
-    font-family: $first_font;
+    
 }
 .service__header{
     color: $headers_text;
     font-size: 4rem;
 line-height: 5.2rem;
 font-weight: 400;
+font-family: $first_font;
 }
 .service__button {
     background-color: $bg_section;
@@ -17,4 +18,8 @@ font-weight: 400;
     height: 5rem;
     font-size: 2rem;
     color: $select_text;
+}
+
+.contacts{
+    background-color: $bg_section;
 }

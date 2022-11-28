@@ -119,7 +119,6 @@
 
 .service {
   background-color: #EDF2EC;
-  font-family: "Inika", serif;
 }
 
 .service__header {
@@ -127,6 +126,7 @@
   font-size: 4rem;
   line-height: 5.2rem;
   font-weight: 400;
+  font-family: "Inika", serif;
 }
 
 .service__button {
@@ -138,6 +138,10 @@
   height: 5rem;
   font-size: 2rem;
   color: #E06733;
+}
+
+.contacts {
+  background-color: #EDF2EC;
 }
 
 * {
