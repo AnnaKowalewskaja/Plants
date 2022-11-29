@@ -10,18 +10,19 @@
 
 .navigation__logo {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .logo__paragraf {
     font-size: 1.6rem;
     color: #000000;
-    margin: 0;
+   
 }
 
 .navigation__list {
     display: flex;
     padding: 0;
+    
     width: 50%;
     max-width: 46.5rem;
     justify-content: space-between;
@@ -61,12 +62,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+padding-top: 5rem;
 }
 
 .welcome__paragraf {
     font-size: 2rem;
     line-height: 3.4rem;
-
+max-width: 53.5rem;
 }
 
 .welcome__header {
