@@ -256,6 +256,16 @@
   font-weight: 400;
 }
 
+.prices__header {
+  font-size: 4rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.prices__header span {
+  color: #499A18;
+}
+
 * {
   scroll-behavior: smooth;
   margin: 0;
