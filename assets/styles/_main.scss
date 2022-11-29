@@ -1,14 +1,29 @@
 .service {
     background-color: $bg_section;
-    
+
 }
-.service__header{
+.service__container{
+    display: flex;
+    padding-top: 4.3rem;
+
+}
+.service__header {
     color: $headers_text;
     font-size: 4rem;
-line-height: 5.2rem;
-font-weight: 400;
-font-family: $first_font;
+    max-width: 30.6rem;
+    line-height: 5.2rem;
+    font-weight: 400;
+    font-family: $first_font;
+margin-right: 14rem;
 }
+.service__wrapper_buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3.8rem;
+    align-items: center;
+
+}
+
 .service__button {
     background-color: $bg_section;
     font-family: $first_font;
@@ -16,73 +31,88 @@ font-family: $first_font;
     border-radius: .5rem;
     width: 16.1rem;
     height: 5rem;
+    padding-top: .5re m;
     font-size: 2rem;
     color: $select_text;
 }
 
-.contacts{
+.contacts {
     background-color: $bg_section;
 }
 
-.about__main{
+.about__main {
     display: flex;
     align-items: center;
     height: 47.9rem;
     margin-top: 8.2rem;
     margin-bottom: 10.5rem;
 }
-.about__main_block{
+
+.about__main_block {
     margin-right: 15.3rem;
-padding-left: -2rem;
+    padding-left: -2rem;
 }
-.about__main_img{
+
+.about__main_img {
     height: 100%;
     max-width: 46.4rem;
 }
-.about__main_header{
+
+.about__main_header {
     font-family: $first_font;
     font-size: 4rem;
     color: $headers_text;
     font-weight: 400;
     margin-bottom: 4rem;
-    span{
-        color:$select_text;
+
+    span {
+        color: $select_text;
     }
 }
-.about__main_paragraf{
+
+.about__main_paragraf {
     font-size: 2rem;
     line-height: 3rem;
 }
-.cards__wrapper{
+
+.cards__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 11.6rem;
     grid-row-gap: 5.5rem;
+padding-top: 8.9rem;
 }
-.card{
+
+.card {
     width: 33rem;
     height: 45rem;
 
 }
-.card__img{
+
+.card__img {
     width: 100%;
 }
-.card__caption{
+
+.card__caption {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -2px;
     border: #E3E1D5 1px solid;
-border-radius:0px  0px 2rem 2rem;
+    border-radius: 0px 0px 2rem 2rem;
 }
-.caption__header{
+
+.caption__header {
     font-family: $second_font;
     color: $select_text;
     font-size: 2rem;
-    margin: 1rem 0;
+    margin-top:.8rem;
+    margin-right: .8rem;
+    margin-bottom: 1rem;
     font-weight: 700;
 }
-.caption__paragraf{
+
+.caption__paragraf {
     font-size: 1.6rem;
     margin-bottom: 3.6rem;
     font-weight: 400;
