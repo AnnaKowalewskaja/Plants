@@ -184,6 +184,15 @@
   line-height: 3rem;
 }
 
+.cards__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 11.6rem;
+  grid-row-gap: 5.5rem;
+}
+
 .card {
   width: 33rem;
   height: 45rem;
