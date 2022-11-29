@@ -144,6 +144,44 @@
   background-color: #EDF2EC;
 }
 
+.about__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 47.9rem;
+  margin-top: 8.2rem;
+  margin-bottom: 10.5rem;
+}
+
+.about__main_block {
+  margin-right: 15.3rem;
+}
+
+.about__main_img {
+  height: 100%;
+  max-width: 46.4rem;
+}
+
+.about__main_header {
+  font-family: "Inika", serif;
+  font-size: 4rem;
+  color: #499A18;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.about__main_header span {
+  color: #E06733;
+}
+
+.about__main_paragraf {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
 * {
   scroll-behavior: smooth;
   margin: 0;

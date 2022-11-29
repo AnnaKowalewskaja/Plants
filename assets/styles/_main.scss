@@ -23,3 +23,32 @@ font-family: $first_font;
 .contacts{
     background-color: $bg_section;
 }
+
+.about__main{
+    display: flex;
+    align-items: center;
+    height: 47.9rem;
+    margin-top: 8.2rem;
+    margin-bottom: 10.5rem;
+}
+.about__main_block{
+    margin-right: 15.3rem;
+}
+.about__main_img{
+    height: 100%;
+    max-width: 46.4rem;
+}
+.about__main_header{
+    font-family: $first_font;
+    font-size: 4rem;
+    color: $headers_text;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    span{
+        color:$select_text;
+    }
+}
+.about__main_paragraf{
+    font-size: 2rem;
+    line-height: 3rem;
+}
