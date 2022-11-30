@@ -276,12 +276,25 @@
   color: #499A18;
 }
 
-.prices__header_right {
-  text-align: right;
+.prices__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .button__noBg {
   background-color: white;
+}
+
+.prices__img {
+  width: 28.4rem;
 }
 
 * {

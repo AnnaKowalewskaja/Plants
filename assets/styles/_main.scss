@@ -137,10 +137,15 @@
         color: $headers_text;
     }
 }
-
-.prices__header_right{
-    text-align: right;
+.prices__second{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
+
 .button__noBg{
     background-color: white;
+}
+.prices__img{
+    width: 28.4rem;
 }
