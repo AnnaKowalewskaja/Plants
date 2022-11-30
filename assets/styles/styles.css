@@ -256,14 +256,32 @@
   font-weight: 400;
 }
 
+.prices__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .prices__header {
   font-size: 4rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  max-width: 45.2rem;
 }
 
 .prices__header span {
   color: #499A18;
+}
+
+.prices__header_right {
+  text-align: right;
+}
+
+.button__noBg {
+  background-color: white;
 }
 
 * {
