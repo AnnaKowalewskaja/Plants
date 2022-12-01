@@ -301,6 +301,11 @@
   font-weight: 700;
 }
 
+.footer {
+  height: 13.2rem;
+  padding: 0 auto;
+}
+
 .footer__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

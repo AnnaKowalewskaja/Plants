@@ -137,36 +137,48 @@
         color: $headers_text;
     }
 }
-.prices__second{
+
+.prices__second {
     display: flex;
     flex-direction: column;
     justify-content: right;
 }
 
-.button__noBg{
+.button__noBg {
     background-color: white;
 }
-.prices__img{
+
+.prices__img {
     width: 28.4rem;
 }
-.contacts__header{
+
+.contacts__header {
     font-weight: 700;
 }
-.footer__wrapper{
+
+.footer {
+    height: 13.2rem;
+    padding: 0 auto;
+}
+
+.footer__wrapper {
     display: flex;
     justify-content: space-between;
 }
-.footer__first{
+
+.footer__first {
     display: flex;
     justify-content: space-between;
-width: 18.2rem;
+    width: 18.2rem;
 }
-.footer__paragraf{
+
+.footer__paragraf {
     font-family: $second_font;
-    color:black;
-    font-size:2rem ;
+    color: black;
+    font-size: 2rem;
 }
-.footer__social{
+
+.footer__social {
     width: 18.8rem;
     display: flex;
     justify-content: space-between;
