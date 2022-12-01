@@ -152,9 +152,20 @@
 .contacts__header{
     font-weight: 700;
 }
-
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__first{
+    display: flex;
+    justify-content: space-between;
+width: 18.2rem;
+}
 .footer__paragraf{
     font-family: $second_font;
     color:black;
     font-size:2rem ;
+}
+.footer__social{
+    width: 18.8rem;
 }
