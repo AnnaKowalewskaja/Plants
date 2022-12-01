@@ -301,6 +301,12 @@
   font-weight: 700;
 }
 
+.footer__paragraf {
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
 * {
   scroll-behavior: smooth;
   margin: 0;
