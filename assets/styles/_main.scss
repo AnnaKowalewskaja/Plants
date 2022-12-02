@@ -172,14 +172,17 @@
     justify-content: space-between;
     width: 18.2rem;
 }
-.footer{
-    .container{
+
+.footer {
+    .container {
         height: 100%;
-        .footer__wrapper{
+
+        .footer__wrapper {
             height: 100%;
         }
     }
 }
+
 .footer__paragraf {
     font-family: $second_font;
     color: black;
@@ -190,4 +193,25 @@
     width: 18.8rem;
     display: flex;
     justify-content: space-between;
+}
+
+.choise {
+    background-color: $bg_section;
+    height: 5rem;
+    width: 25rem;
+    border-radius: 2rem;
+   padding: auto;
+}
+
+.choise__button {
+    border: none;
+    
+
+.choise__link {
+    font-family: $second_font;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+   
+    //margin-left: 4rem;
 }
