@@ -164,6 +164,7 @@
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__first {
@@ -171,7 +172,14 @@
     justify-content: space-between;
     width: 18.2rem;
 }
-
+.footer{
+    .container{
+        height: 100%;
+        .footer__wrapper{
+            height: 100%;
+        }
+    }
+}
 .footer__paragraf {
     font-family: $second_font;
     color: black;
