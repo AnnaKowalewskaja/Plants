@@ -357,12 +357,11 @@
   height: 5rem;
   width: 25rem;
   border-radius: 2rem;
+  padding: auto;
 }
 
 .choise__button {
   border: none;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .choise__link {
