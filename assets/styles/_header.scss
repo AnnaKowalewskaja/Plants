@@ -6,6 +6,18 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
+    height: 13.4rem;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        max-width: $max_width_tablet;
+        height: 11.7rem;
+        margin-bottom: 0;
+    }
+
+    @media (max-width:$mobile_transition) {
+        height: 9.6rem;
+        align-items: center;
+    }
 }
 
 .navigation__logo {
@@ -16,26 +28,38 @@
 .logo__paragraf {
     font-size: 1.6rem;
     color: #000000;
-   
+
 }
 
 .navigation__list {
     display: flex;
     padding: 0;
-    
+    align-items: center;
     width: 50%;
     max-width: 46.5rem;
     justify-content: space-between;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        max-width: 45.2rem;
+        width: 70%;
+    }
+
+    @media (max-width:$mobile_transition) {
+        display: none;
+    }
+
 }
 
 .navigation__item {
     color: $links_nav;
     font-size: 1.6rem;
     line-height: 5rem;
+    padding-left: 2.2rem;
 
 }
 
-.navigation__item:hover {
+.navigation__item:hover,
+.navigation__item_active {
     color: $select_text;
 
 }
@@ -48,12 +72,37 @@
 .welcome__main {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10.86rem;
+    padding-bottom: 5.86rem;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        flex-direction: row-reverse;
+    }
+
+
 }
 
 .welcome__main_img {
     max-width: 44.88rem;
     height: 40.7rem;
+    padding-top: 1.5rem;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        width: 28rem;
+        height: 25.4rem;
+        padding-top: 4rem;
+    }
+
+    @media (max-width:$mobile_transition) {
+        display: none;
+    }
+}
+
+.welcome__mrgn {
+    margin-left: 1.5rem;
+
+    @media (max-width:$mobile_transition) {
+        margin: 0;
+    }
 }
 
 .welcome__main_block {
@@ -62,22 +111,55 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-padding-top: 5rem;
+    padding-top: 5rem;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        width: 34.6rem;
+        height: 31rem;
+    }
+
+    @media (max-width:$mobile_transition) {
+        height: 25.2rem;
+        width: 33rem;
+        padding-top: 0;
+    }
 }
 
 .welcome__paragraf {
     font-size: 2rem;
     line-height: 3.4rem;
-max-width: 53.5rem;
+    max-width: 53.5rem;
+    margin-top: -12px;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        margin: 0;
+    }
+
+    @media (max-width:$mobile_transition) {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
 }
 
 .welcome__header {
-    margin: 0;
+
     color: $content_text;
     font-size: 4.5rem;
     line-height: 5rem;
     font-family: $second_font;
     font-weight: 700;
+
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    @media (max-width:$mobile_transition) {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
 
     span {
         color: $headers_text;
@@ -85,7 +167,7 @@ max-width: 53.5rem;
 }
 
 .welcome__button {
-    
+
     font-size: 1.6rem;
     line-height: 2rem;
     border: 2px solid $select_text;
@@ -95,5 +177,9 @@ max-width: 53.5rem;
     background-color: $bg_section;
     transition-property: all;
 
+    @media (max-width:$mobile_transition) {
+        font-size: 1rem;
+        width: 10rem;
+        height: 3.4rem;
+    }
 }
-

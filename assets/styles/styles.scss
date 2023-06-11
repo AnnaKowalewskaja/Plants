@@ -19,7 +19,9 @@ html {
     box-sizing: border-box;
 }
 
-a,li,button {
+a,
+li,
+button {
     text-decoration: none;
     transition: $main_animation;
 }
@@ -39,11 +41,21 @@ ul {
 .container {
     max-width: $max_width;
 
+    @media (min-width:$tablet) and (max-width:$desktop) {
+        max-width: $max_width_tablet;
+    }
+
+    ;
+
+    @media (max-width:$mobile_transition) {
+        max-width: $max_width_mobile;
+    }
+
     width: 84%;
     margin: 0 auto;
 }
 
-button{
+button {
     font-family: $second_font;
 }
 
@@ -58,7 +70,17 @@ section {
     font-weight: 400;
 }
 
-.button__animation:hover{
+.button__animation:hover {
+    color: white;
+    background-color: $select_text;
+}
+
+.service_effect {
+    filter: blur(2px);
+
+}
+
+.active {
     color: white;
     background-color: $select_text;
 }

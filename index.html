@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <link href="./node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
+    <link rel="icon" type="image/svg" href="./assets/icons/logo.svg">
     <title>Plants</title>
 </head>
 
@@ -28,8 +28,16 @@
                         <p class="logo__paragraf">Plants</p>
                     </div>
                     <!-- /.navigation__logo -->
+
+                    <div class="burger_menu">
+                        <div class="burger_element"></div>
+                        <div class="burger_element"></div>
+                        <div class="burger_element"></div>
+                        <div class="burger_element"></div>
+                    </div>
+
                     <ul class="navigation__list">
-                        <li><a class="navigation__item" href="">Home</a></li>
+                        <li><a class="navigation__item navigation__item_active" href="">Home</a></li>
                         <li><a class="navigation__item" href="#about">About us</a></li>
                         <li><a class="navigation__item" href="#service">Service</a></li>
                         <li><a class="navigation__item" href="#price">Price</a></li>
@@ -39,12 +47,13 @@
                 <div class="welcome__main">
                     <img src="./assets/images/leafs.png" alt="leafs" class="welcome__main_img">
                     <div class="welcome__main_block">
-                        <h1 class="welcome__header">We grow <span>plants</span> and give you oxygen</h1>
-                        <p class="paragraf welcome__paragraf">Lorem Ipsum is simply dummy text of the printing and
+                        <h1 class="welcome__header welcome__mrgn">We grow <span>plants</span> and give you oxygen</h1>
+                        <p class="paragraf welcome__paragraf welcome__mrgn">Lorem Ipsum is simply dummy text of the
+                            printing and
                             typesetting industry.
                             Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s.</p>
-                        <button class="welcome__button button__animation">LEARN MORE</button>
+                        <button class="welcome__button button__animation welcome__mrgn">LEARN MORE</button>
                     </div>
                     <!-- /.welcome__main_second -->
                 </div>
@@ -88,9 +97,11 @@
                 <div class="service__container">
                     <h2 class="service__header">Service and our projects</h2>
                     <div class="service__wrapper_buttons">
-                        <button class="service__button button__animation">Gargens</button>
-                        <button class="service__button button__animation">Lawn</button>
-                        <button class="service__button button__animation">Planting</button>
+                        <button name="gargens"
+                            class="service__button button__animation button__gargens">Gargens</button>
+                        <button name="lawn" class="service__button button__animation button__lawn">Lawn</button>
+                        <button name="planting"
+                            class="service__button button__animation button__planting">Planting</button>
                     </div>
                     <!-- /.service__wrapper_buttons -->
                 </div>
@@ -100,7 +111,7 @@
 
 
                 <div class="cards__wrapper">
-                    <div class="card">
+                    <div class="card gargens">
                         <img src="./assets/images/first.png" class="card__img" alt="card 1">
                         <div class="card__caption">
                             <p class="caption__header">Garden care</p>
@@ -110,18 +121,18 @@
                     </div>
                     <!-- /.card -->
 
-                    <div class="card">
-                        <img src="./assets/images/first (1).png" class="card__img" alt="card 2">
+                    <div class="card planting">
+                        <img src="./assets/images/first(1).png" class="card__img" alt="card 2">
                         <div class="card__caption">
-                            <p class="caption__header">Planting</p>
+                            <p class="caption__header ">Planting</p>
                             <p class="caption__paragraf paragraf">Lorem Ipsum has been the industry</p>
                         </div>
                         <!-- /.card__caption -->
                     </div>
                     <!-- /.card -->
 
-                    <div class="card">
-                        <img src="./assets/images/first (2).png" class="card__img" alt="card 2">
+                    <div class="card lawn">
+                        <img src="./assets/images/first(2).png" class="card__img" alt="card 2">
                         <div class="card__caption">
                             <p class="caption__header">Lawn care</p>
                             <p class="caption__paragraf paragraf">Lorem Ipsum has been the industry</p>
@@ -130,30 +141,30 @@
                     </div>
                     <!-- /.card -->
 
-                    <div class="card">
-                        <img src="./assets/images/first (3).png" class="card__img" alt="card 3">
+                    <div class="card planting">
+                        <img src="./assets/images/first(3).png" class="card__img" alt="card 3">
                         <div class="card__caption">
-                            <p class="caption__header">Planting</p>
+                            <p class="caption__header planting">Planting</p>
                             <p class="caption__paragraf paragraf">Lorem Ipsum has been the industry</p>
                         </div>
                         <!-- /.card__caption -->
                     </div>
                     <!-- /.card -->
 
-                    <div class="card">
-                        <img src="./assets/images/first (4).png" class="card__img" alt="card 4">
+                    <div class="card gargens">
+                        <img src="./assets/images/first(4).png" class="card__img " alt="card 4">
                         <div class="card__caption">
-                            <p class="caption__header">Garden care</p>
+                            <p class="caption__header ">Garden care</p>
                             <p class="caption__paragraf paragraf">Lorem Ipsum has been the industry</p>
                         </div>
                         <!-- /.card__caption -->
                     </div>
                     <!-- /.card -->
 
-                    <div class="card">
-                        <img src="./assets/images/first (5).png" class="card__img" alt="card 5">
+                    <div class="card planting">
+                        <img src="./assets/images/first(5).png" class="card__img" alt="card 5">
                         <div class="card__caption">
-                            <p class="caption__header">Planting</p>
+                            <p class="caption__header planting">Planting</p>
                             <p class="caption__paragraf paragraf">Lorem Ipsum has been the industry</p>
                         </div>
                         <!-- /.card__caption -->
@@ -175,36 +186,104 @@
                         <h2 class="prices__header">Prices</h2>
                         <div class="prices__choises">
                             <div class="choise">
-                                <a href="" class="choise__link">Basics</a>
-                                <button class="choise__button">
-                                    <img src="./assets/icons/accordion_btn.svg" alt="accordion"
-                                        class="choise__button_img">
+                                <p class="choise__link">Basics</p>
+                                <button class="choise__button button__mod" name='basics-price'>
+
                                 </button>
                             </div>
                             <!-- /.choise -->
+                            <div class="choise__open basics-price close">
+                                <div class="open__container">
+                                    <div class="open__first">
+                                        <p class="choise__link ">Basics</p>
+                                        <button class="choise__button button__open" name='basics-price'>
+
+                                        </button>
+                                    </div>
+                                    <!-- /.open__first -->
+                                    <div class="open__line"></div>
+                                    <p class="choise__paragraf open__paragraf">Release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently</p>
+                                    <p class="choise__price"> <span>$15</span> / per hour</p>
+                                    <button class="choise__button_order"
+                                        onclick="document.location='#contacts'">Order</button>
+                                </div>
+                                <!-- /.open__container -->
+
+                            </div>
+                            <!-- /.choise__open -->
+
                             <div class="choise">
-                                <a href="" class="choise__link">Standard</a>
-                                <button class="choise__button">
-                                    <img src="./assets/icons/accordion_btn.svg" alt="accordion"
-                                        class="choise__button_img">
+                                <p class="choise__link">Standard</p>
+
+
+                                <button class="choise__button button__mod" name='standard-price'>
+
                                 </button>
                             </div>
                             <!-- /.choise -->
+
+                            <div class="choise__open standard-price close">
+                                <div class="open__container">
+                                    <div class="open__first">
+                                        <p class="choise__link ">Standard</p>
+                                        <button class="choise__button button__open" name='standard-price'>
+
+                                        </button>
+                                    </div>
+                                    <!-- /.open__first -->
+                                    <div class="open__line"></div>
+                                    <p class="choise__paragraf open__paragraf">Release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently</p>
+                                    <p class="choise__price"> <span>$25</span> / per hour</p>
+                                    <button class="choise__button_order"
+                                        onclick="document.location='#contacts'">Order</button>
+                                </div>
+                                <!-- /.open__container -->
+
+                            </div>
+                            <!-- /.choise__open -->
+
                             <div class="choise">
-                                <a href="" class="choise__link">Pro care</a>
-                                <button class="choise__button">
-                                    <img src="./assets/icons/accordion_btn.svg" alt="accordion"
-                                        class="choise__button_img">
+                                <p class="choise__link">Pro care</p>
+
+                                <button class="choise__button button__mod" name='pro-price'>
+
                                 </button>
                             </div>
                             <!-- /.choise -->
+
+
+
+                            <div class="choise__open pro-price close">
+                                <div class="open__container">
+                                    <div class="open__first">
+                                        <p class="choise__link ">Pro care</p>
+                                        <button class="choise__button button__open" name='pro-price'>
+
+                                        </button>
+                                    </div>
+                                    <!-- /.open__first -->
+                                    <div class="open__line"></div>
+                                    <p class="choise__paragraf open__paragraf">Release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently</p>
+                                    <p class="choise__price"> <span>$35</span> / per hour</p>
+                                    <button class="choise__button_order"
+                                        onclick="document.location='#contacts'">Order</button>
+                                </div>
+                                <!-- /.open__container -->
+
+                            </div>
+                            <!-- /.choise__open -->
                         </div>
                         <!-- /.prices__choises -->
                     </div>
                     <!-- /.prices__fist -->
                     <div class="prices__second align">
-                        <h3 class="prices__header ">Our best <span>gardeners</span> are ready to help you</h3>
-                        <button class="service__button button__animation button__noBg ">Contact us</button>
+                        <h3 class="prices__header prices__header_align">Our best <span>gardeners</span> are ready to
+                            help you</h3>
+                        <button class="prices__button button__animation button__noBg "
+                            onclick="document.location='#contacts'">Contact us</button>
                         <img class="prices__img" src="./assets/images/leafs1.png" alt="leafs">
                     </div>
                     <!-- /.prices__second -->
@@ -221,8 +300,23 @@
 
         <section class="contacts" id="contacts">
             <div class="container">
-                <h2 class="service__header contacts__header">Contact us</h2>
-                <img src="./assets/images/contact_woman.png" alt="Contacts">
+                <div class="contacts__container">
+                    <h2 class="service__header contacts__header">Contact us</h2>
+                    <div class="contact__city">
+                        <p class="city__title">City</p>
+                        <button class="choise__button button__open contact__button">
+    
+                        </button>
+                    </div>
+                    <!-- /.service__city -->
+                    <div class="service__img">
+                        <img src="./assets/images/contact_woman.png" alt="Contacts">
+                    </div>
+                    <!-- /.service__img -->
+                </div>
+                <!-- /.contacts__container -->
+
+
             </div>
             <!-- /.container -->
         </section>
@@ -233,16 +327,21 @@
             <div class="footer__wrapper">
                 <div class="footer__first">
                     <p class="footer__paragraf">©</p>
-                    <p class="footer__paragraf">2022</p>
-                    <p class="footer__paragraf">github</p>
+                    <p class="footer__paragraf">2023</p>
+                    <p class="footer__paragraf"><a href="https://github.com/AnnaKowalewskaja">github</a></p>
                 </div>
                 <!-- /.footer__first -->
-                <p class="footer__paragraf">Rolling Scopes School</p>
+                <p class="footer__paragraf"><a href="https://rs.school/js-stage0/">Rolling Scopes School</a></p>
                 <div class="footer__social">
-                    <img src="./assets/icons/inst.svg" alt="instagram">
-                    <img src="./assets/icons/fb.svg" alt="facebook">
-                    <img src="./assets/icons/tw.svg" alt="twitter">
-                    <img src="./assets/icons/pinterest.svg" alt="pinterest">
+                    <ul class="social__list">
+                        <li><img src="./assets/icons/inst.svg" alt="instagram"></li>
+                        <li><img src="./assets/icons/fb.svg" alt="facebook"></li>
+                        <li><img src="./assets/icons/tw.svg" alt="twitter"></li>
+                        <li> <img src="./assets/icons/pinterest.svg" alt="pinterest"></li>
+                    </ul>
+
+
+
                 </div>
                 <!-- /.footer__social -->
             </div>
@@ -253,5 +352,6 @@
 
     </footer>
 </body>
+<script src="./index.js"></script>
 
 </html>
