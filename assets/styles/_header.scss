@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
-    height: 13.4rem;
+    height: 14.5rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         max-width: $max_width_tablet;
@@ -23,6 +23,8 @@
 .navigation__logo {
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
 }
 
 .logo__paragraf {
@@ -36,7 +38,7 @@
     padding: 0;
     align-items: center;
     width: 50%;
-    max-width: 46.5rem;
+    max-width: 49.5rem;
     justify-content: space-between;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
@@ -47,15 +49,17 @@
     @media (max-width:$mobile_transition) {
         display: none;
     }
-
+li{
+    letter-spacing: 1px;
+    font-family:var(--$first_font) ;
+}
 }
 
 .navigation__item {
     color: $links_nav;
     font-size: 1.6rem;
-    line-height: 5rem;
-    padding-left: 2.2rem;
-
+    //line-height: 5rem;
+    padding-left: 4.2rem;
 }
 
 .navigation__item:hover,
@@ -72,7 +76,7 @@
 .welcome__main {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5.86rem;
+    padding-bottom: 10.86rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: row-reverse;
@@ -83,8 +87,8 @@
 
 .welcome__main_img {
     max-width: 44.88rem;
-    height: 40.7rem;
-    padding-top: 1.5rem;
+    height: 41rem;
+    margin-top: -5rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         width: 28rem;
@@ -97,21 +101,13 @@
     }
 }
 
-.welcome__mrgn {
-    margin-left: 1.5rem;
-
-    @media (max-width:$mobile_transition) {
-        margin: 0;
-    }
-}
 
 .welcome__main_block {
-    max-width: 55.8rem;
-    height: 34rem;
+    max-width: 54.8rem;
+    height: 35.1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 5rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         width: 34.6rem;
@@ -176,7 +172,6 @@
     height: 4.4rem;
     background-color: $bg_section;
     transition-property: all;
-
     @media (max-width:$mobile_transition) {
         font-size: 1rem;
         width: 10rem;
