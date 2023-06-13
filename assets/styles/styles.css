@@ -1192,7 +1192,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 18.2rem;
+  width: 16.3rem;
+  margin-bottom: 1rem;
+  margin-left: -2rem;
 }
 
 .footer .container {
@@ -1207,6 +1209,8 @@
   font-family: "Inter", sans-serif;
   color: black;
   font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
 .footer__paragraf a {
@@ -1223,9 +1227,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 21rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 17.6rem;
+}
+
+.footer__social {
+  margin-bottom: 1rem;
 }
 
 * {

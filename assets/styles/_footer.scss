@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: column;
     }
@@ -16,10 +17,13 @@
 .footer__first {
     display: flex;
     justify-content: space-between;
-    width: 18.2rem;
+    width: 16.3rem;
+    margin-bottom: 1rem;
+    margin-left: -2rem;
 }
 
 .footer {
+  
     .container {
         height: 100%;
 
@@ -33,6 +37,8 @@
     font-family: $second_font;
     color: black;
     font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     a{
         
         color:black;
@@ -46,6 +52,12 @@
 
 .social__list{
     display: flex;
-    justify-content: space-around;
-    width: 21rem;
+    justify-content: space-between;
+    width: 17.6rem;
+   
+}
+
+.footer__social{
+    margin-bottom: 1rem;
+  
 }
