@@ -1,11 +1,14 @@
 .service {
     background-color: $bg_section;
     margin-top: -16px;
+    .container{
+        max-width: 1197px;
+    }
 }
 
 .service__container {
     display: flex;
-    padding-top: 4.3rem;
+    padding-top: 3.7rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: column;
@@ -107,7 +110,7 @@
     font-size: 2rem;
     color: $select_text;
     margin-top: 4.5rem;
-    margin-bottom: 4.2rem;
+    margin-right: -1.6rem;
 
     @media (max-width:$mobile_transition) {
         width: 12.1rem;
@@ -231,8 +234,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 12.9rem;
-    grid-row-gap: 5.5rem;
-    padding-top: 7.9rem;
+    grid-row-gap: 5.6rem;
+    padding-top: 8.7rem;
     padding-bottom: 12.1rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
@@ -294,7 +297,7 @@
     font-family: $second_font;
     color: $select_text;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: .6rem;
     margin-right: -4px;
     margin-bottom: 1rem;
     font-weight: 700;
@@ -337,8 +340,8 @@
     font-family: $second_font;
     font-weight: 700;
     max-width: 45.2rem;
-    margin-top: 3.7rem;
-    margin-left: -5px;
+    margin-top: 3.9rem;
+    margin-left: 3px;
     margin-bottom: 6rem;
 
     @media (max-width:$mobile_transition) {
@@ -357,9 +360,8 @@
 
 .prices__header_align {
     text-align: right;
-
     @media (min-width:$tablet) and (max-width:$desktop) {
-        text-align: right;
+       
         margin-top: 8.7rem;
     }
 }
@@ -405,7 +407,7 @@
     border: 1px solid #E3E1D5;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
-    padding: 3.4rem 4.1rem;
+    padding: 3.4rem 4.1rem 0;
 
 
     @media (min-width:$tablet) and (max-width:$desktop) {
@@ -646,9 +648,13 @@
     background-color: white;
 }
 
-.prices__img {
-    width: 15.2rem;
+.prices{
+padding-bottom: 13rem;
+}
 
+.prices__img {
+    width: 31.2rem;
+margin-right: -3rem;
     @media (min-width:$tablet) and (max-width:$desktop) {
         margin-top: 3.4rem;
     }
