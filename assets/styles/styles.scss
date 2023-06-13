@@ -28,7 +28,9 @@ button {
 
 a,
 li,
-button:hover {
+button,
+select,
+option:hover {
     cursor: pointer;
     transition: $main_animation;
 }

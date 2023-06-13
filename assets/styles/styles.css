@@ -283,7 +283,6 @@
   line-height: 5.2rem;
   font-weight: 400;
   font-family: "Inika", serif;
-  margin-right: 14rem;
   margin-left: -6px;
 }
 
@@ -306,6 +305,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 14rem;
 }
 
 @media (max-width: 767px) {
@@ -338,39 +338,6 @@
     height: 3.5rem;
     font-size: 1.5rem;
   }
-}
-
-.contact__city {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #D6E7D2;
-  width: 45rem;
-  height: 5rem;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 0px;
-  padding: 5px 35px 5px 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-@media (max-width: 668px) {
-  .contact__city {
-    margin: 0 auto;
-  }
-}
-
-.contact__button {
-  cursor: pointer;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
 }
 
 .prices__button {
@@ -406,6 +373,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-top: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -415,6 +386,43 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.contact__city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #D6E7D2;
+  width: 39rem;
+  height: 4rem;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 10rem;
+  border: none;
+  padding: 5px 35px 5px 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  color: #717171;
+}
+
+@media (max-width: 668px) {
+  .contact__city {
+    margin: 0 auto;
+  }
+}
+
+.contact__button {
+  cursor: pointer;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .about__main {
@@ -1072,6 +1080,23 @@
 
 .contacts__header {
   font-weight: 700;
+  color: #499A18;
+  font-size: 4rem;
+  max-width: 30.6rem;
+  line-height: 5.2rem;
+  font-family: "Inika", serif;
+  margin-left: 7rem;
+  margin-top: 1.8rem;
+}
+
+@media (max-width: 767px) {
+  .contacts__header {
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    margin-right: 0;
+    width: 19rem;
+    margin-bottom: 3.5rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -1101,6 +1126,11 @@
 
 .service__img img {
   height: 50rem;
+}
+
+.contact__form :hover {
+  -webkit-animation: all 0.3s ease-in;
+          animation: all 0.3s ease-in;
 }
 
 .burger_menu {
@@ -1220,7 +1250,9 @@ button {
 
 a,
 li,
-button:hover {
+button,
+select,
+option:hover {
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
