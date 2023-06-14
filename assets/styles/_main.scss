@@ -142,9 +142,10 @@
 
 
 
-.contact__button {
+.choise__button  {
     cursor: pointer;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
+    
 }
 
 .about__main {
@@ -712,7 +713,7 @@
     max-width: 30.6rem;
     line-height: 5.2rem;
     font-family: $first_font;
-    margin-left: 7rem;
+    margin-left: 5rem;
 margin-top: 1.8rem;
     @media (max-width:$mobile_transition) {
         font-size: 2.5rem;

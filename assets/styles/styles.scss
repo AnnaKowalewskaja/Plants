@@ -45,9 +45,8 @@ ul {
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         max-width: $max_width_tablet;
+        width: 90%;
     }
-
-    ;
 
     @media (max-width:$mobile_transition) {
         max-width: $max_width_mobile;

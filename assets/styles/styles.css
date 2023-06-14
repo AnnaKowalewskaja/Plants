@@ -419,10 +419,10 @@
   }
 }
 
-.contact__button {
+.choise__button {
   cursor: pointer;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .about__main {
@@ -1085,7 +1085,7 @@
   max-width: 30.6rem;
   line-height: 5.2rem;
   font-family: "Inika", serif;
-  margin-left: 7rem;
+  margin-left: 5rem;
   margin-top: 1.8rem;
 }
 
@@ -1281,6 +1281,7 @@ ul {
 @media (min-width: 768px) and (max-width: 1439px) {
   .container {
     max-width: 668px;
+    width: 90%;
   }
 }
 
