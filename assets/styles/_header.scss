@@ -12,6 +12,7 @@
         max-width: $max_width_tablet;
         height: 11.7rem;
         margin-bottom: 0;
+
     }
 
     @media (max-width:$mobile_transition) {
@@ -25,6 +26,10 @@
     align-items: center;
     padding-bottom: 2rem;
     letter-spacing: 1px;
+    @media (min-width:$tablet) and (max-width:$desktop) {
+padding-bottom: 0;
+
+    }
 }
 
 .logo__paragraf {
@@ -42,17 +47,18 @@
     justify-content: space-between;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
-        max-width: 45.2rem;
-        width: 70%;
+        max-width: 52.2rem;
+        width: 74%;
     }
 
     @media (max-width:$mobile_transition) {
         display: none;
     }
-li{
-    letter-spacing: 1px;
-    font-family:var(--$first_font) ;
-}
+
+    li {
+        letter-spacing: 1px;
+        font-family: var(--$first_font);
+    }
 }
 
 .navigation__item {
@@ -172,6 +178,7 @@ li{
     height: 4.4rem;
     background-color: $bg_section;
     transition-property: all;
+
     @media (max-width:$mobile_transition) {
         font-size: 1rem;
         width: 10rem;

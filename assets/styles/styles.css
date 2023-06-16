@@ -44,6 +44,12 @@
   letter-spacing: 1px;
 }
 
+@media (min-width: 768px) and (max-width: 1439px) {
+  .navigation__logo {
+    padding-bottom: 0;
+  }
+}
+
 .logo__paragraf {
   font-size: 1.6rem;
   color: #000000;
@@ -66,8 +72,8 @@
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .navigation__list {
-    max-width: 45.2rem;
-    width: 70%;
+    max-width: 52.2rem;
+    width: 74%;
   }
 }
 
