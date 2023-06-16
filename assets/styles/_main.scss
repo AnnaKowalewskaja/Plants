@@ -157,7 +157,7 @@
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: column;
-        margin-top: 4rem;
+        margin-top: 2rem;
         height: 78.3rem;
         margin-bottom: 0;
     }
@@ -218,7 +218,10 @@
         max-width: 42.3rem;
         width: 80%;
         margin: 0 auto;
-        padding-bottom: 4rem;
+        font-size: 3.5rem;
+       
+        text-align: center;
+     //   padding-bottom: 4rem;
     }
 
     @media (max-width:$mobile_transition) {

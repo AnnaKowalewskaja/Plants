@@ -86,6 +86,7 @@ padding-bottom: 0;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: row-reverse;
+        padding-top: 4rem;
     }
 
 
@@ -99,7 +100,7 @@ padding-bottom: 0;
     @media (min-width:$tablet) and (max-width:$desktop) {
         width: 28rem;
         height: 25.4rem;
-        padding-top: 4rem;
+        padding-top: 5rem;
     }
 
     @media (max-width:$mobile_transition) {

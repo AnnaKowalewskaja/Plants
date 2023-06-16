@@ -121,6 +121,7 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    padding-top: 4rem;
   }
 }
 
@@ -134,7 +135,7 @@
   .welcome__main_img {
     width: 28rem;
     height: 25.4rem;
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
 }
 
@@ -449,7 +450,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
     height: 78.3rem;
     margin-bottom: 0;
   }
@@ -521,7 +522,8 @@
     max-width: 42.3rem;
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 4rem;
+    font-size: 3.5rem;
+    text-align: center;
   }
 }
 
