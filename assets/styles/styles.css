@@ -1127,8 +1127,8 @@
   max-width: 30.6rem;
   line-height: 5.2rem;
   font-family: "Inika", serif;
-  margin-left: 5rem;
-  margin-top: 1.8rem;
+  margin-left: 4rem;
+  margin-top: .8rem;
 }
 
 @media (max-width: 767px) {
@@ -1235,7 +1235,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 16.3rem;
-  margin-bottom: 1rem;
   margin-left: -2rem;
 }
 
@@ -1251,8 +1250,7 @@
   font-family: "Inter", sans-serif;
   color: black;
   font-size: 2rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
+  padding-left: 2rem;
 }
 
 .footer__paragraf a {
@@ -1265,6 +1263,10 @@
   color: #E06733;
 }
 
+.footer__link {
+  padding-left: 1.2rem;
+}
+
 .social__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1273,10 +1275,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 17.6rem;
-}
-
-.footer__social {
-  margin-bottom: 1rem;
 }
 
 * {
