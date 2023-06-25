@@ -12,7 +12,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 5rem;
+  margin-bottom: 9rem;
   height: 14.5rem;
 }
 
@@ -53,6 +53,7 @@
 .logo__paragraf {
   font-size: 1.6rem;
   color: #000000;
+  margin-top: .7rem;
 }
 
 .navigation__list {
@@ -68,6 +69,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: -0.9rem;
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -148,7 +150,7 @@
 
 .welcome__main_block {
   max-width: 54.8rem;
-  height: 35.1rem;
+  height: 34.1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
