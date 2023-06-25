@@ -82,7 +82,7 @@ margin-top: .7rem;
 .welcome__main {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10.86rem;
+    padding-bottom: 6.86rem;
 
     @media (min-width:$tablet) and (max-width:$desktop) {
         flex-direction: row-reverse;
